@@ -152,124 +152,208 @@ body {
     display: none;
 }
 
-.box-div {
-    float: left; 
+/* ********************End of nav CSS************************* */
+
+
+#original-collection-main {
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    /* background-color: rgb(73, 73, 252); */
+}
+
+#original-collection-main-header {
+    font-size: 36px;
+    font-family: Cormorant Garamond;
+}
+
+#original-collection-main-pictures{
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0%;
+    padding-left: 0%;
+    /* background-color: red; */
+}
+
+#picture1{
+    width: 32%;
     height: 70vh;
-    width: 50%; 
-    text-align: center; 
+    background-image: url("../images/Resort_Look1.jpg");
+    display:inline-block;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+#picture1:hover{
+    opacity: .7;
+}
+
+#picture1:hover > div#picture-text1{
+    visibility: visible;
+}
+
+
+#picture2{
+    width: 32%;
+    height: 70vh;
+    background-image: url("../images/Resort_Look2.jpg");
+    display:inline-block;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+#picture2:hover{
+    opacity: .7;
+}
+#picture2:hover > div#picture-text2{
+    visibility: visible;
+}
+#picture3{
+    width: 32%;
+    height: 70vh;
+    background-image: url("../images/Resort_Look2A.jpg");
+    display:inline-block;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+#picture3:hover > div#picture-text3{
+    visibility: visible;
+}
+#picture3:hover{
+    opacity: .7;
+}
+#picture4{
+    width: 32%;
+    height: 70vh;
+    background-image: url("../images/Resort_Look3.jpg");
+    display:inline-block;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+#picture4:hover{
+    opacity: .7;
+}
+#picture4:hover > div#picture-text4{
+    visibility: visible;
+}
+#picture5{
+    width: 32%;
+    height: 70vh;
+    background-image: url("../images/Resort_Look3A.jpg");
+    display:inline-block;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+#picture5:hover{
+    opacity: .7;
+}
+#picture5:hover > div#picture-text5{
+    visibility: visible;
+}
+#picture6{
+    width: 32%;
+    height: 70vh;
+    background-image: url("../images/Resort_Look4.jpg");
+    display:inline-block;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+#picture6:hover{
+    opacity: .7;
+}
+#picture6:hover > div#picture-text6{
+    visibility: visible;
+}
+#picture7{
+    width: 32%;
+    height: 70vh;
+    background-image: url("../images/Resort_Look4A.jpg");
+    display:inline-block;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+#picture7:hover{
+    opacity: .7;
+}
+#picture7:hover > div#picture-text7{
+    visibility: visible;
+}
+#picture8{
+    width: 32%;
+    height: 70vh;
+    background-image: url("../images/Resort_Look5.jpg");
+    display:inline-block;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+#picture8:hover{
+    opacity: .7;
+}
+#picture8:hover > div#picture-text8{
+    visibility: visible;
+}
+#picture9{
+    width: 32%;
+    height: 70vh;
+    background-image: url("../images/Resort_Look6.jpg");
+    display:inline-block;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+#picture9:hover{
+    opacity: .7;
+}
+#picture9:hover > div#picture-text9{
+    visibility: visible;
+}
+#picture10{
+    width: 32%;
+    height: 70vh;
+    background-image: url("../images/Resort_Look6A.jpg");
+    display:inline-block;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+#picture10:hover{
+    opacity: .7;
+}
+#picture10:hover > div#picture-text10{
+    visibility: visible;
+}
+.picture-text {
     color: white;
-}
-
-#box-image-1 {
-    background-image: url("../images/box_1.jpg");
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
-    bottom: 4%;
-    font-family: 'Cormorant Garamond', 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
-    transition: 2s;
-    z-index: 1;
+    top: 40vh;
+    left: 10%;
+    font-family: Cormorant Garamond;
+    visibility: hidden;
 }
 
-#box-image-1:hover {
-    transform: scale(1.1,1.1);
-    z-index: 10;
 
-}
-
-#box-image-2 {
-    background-image: url("../images/Resort_Cover.png");
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    bottom: 4%;
-    font-family: 'Cormorant Garamond', 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
-    transition: 2s;
-    z-index: 1;
-    background-position: center top; 
-
-}
-
-#box-image-2:hover {
-    transform: scale(1.1,1.1);
-    z-index: 10;
-
-}
-
-#box-image-3 {
-    background-image: url("../images/box_3.jpg");
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    bottom: 4%;
-    font-family: 'Cormorant Garamond', 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
-    transition: 2s;
-    z-index: 1;
-
-}
-
-#box-image-3:hover {
-    transform: scale(1.1,1.1);
-    z-index: 10;
-
-}
-
-#box-image-4 {
-    background-image: url("../images/box_4.jpg");
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    bottom: 4%;
-    font-family: 'Cormorant Garamond', 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
-    transition: 2s;
-    z-index: 1;
-
-}
-
-#box-image-4:hover {
-    transform: scale(1.1,1.1);
-    z-index: 10;
-
-}
-.box-image-text-lg {
-    text-shadow: 2px 2px 4px #000000;
-    font-size: 38px; 
-    position: absolute; 
-    top: 40%; 
-    left: 20%;
-}
-
-.box-image-text-sm {
-    text-shadow: 2px 2px 4px #000000;
-    font-size: 34px; 
-    position: absolute; 
-    top: 60%; 
-    left: 20%;
-    color: white;
-}
-
-.box-image {
-    width: 100%;
-    transition: 2s;
-    z-index: 20;
-}
-
-.box-image:hover {
-    transform: scale(1.1,1.1);
-}
-
+/********************************* Beginning of footer CSS**************************** */
 #footer-main {
     font-family: 'Roboto', sans-serif;
     width: 100%;
@@ -477,6 +561,44 @@ body {
     .box-image-text-sm {
         font-size: 14px;
     }
+    #picture1 {
+        height: 30vh;
+    }
+    #picture2 {
+        height: 30vh;
+    }
+    #picture3 {
+        height: 30vh;
+    }
+    #picture4 {
+        height: 30vh;
+    }
+    #picture5 {
+        height: 30vh;
+    }
+    #picture6 {
+        height: 30vh;
+    }
+    #picture7 {
+        height: 30vh;
+    }
+    #picture8 {
+        height: 30vh;
+    }
+    #picture9 {
+        height: 30vh;
+    }
+    #picture10 {
+        height: 30vh;
+    }
+    .picture-text {
+        top: 10vh;
+    }
+    #logo{
+        padding-top: 50px;
+        bottom: 5px;
+        right: 125px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -492,10 +614,5 @@ body {
         float: none;
         display: block;
         text-align: left;
-    }
-    #logo{
-        padding-top: 50px;
-        bottom: 5px;
-        right: 125px;
     }
 }
