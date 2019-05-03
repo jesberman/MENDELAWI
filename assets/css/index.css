@@ -160,6 +160,11 @@ body {
     color: white;
 }
 
+.box-image-active {
+    transform: scale(1.1,1.1);
+    z-index: 20;
+}
+
 #box-image-1 {
     background-image: url("../images/box_1.jpg");
     width: 100%;
@@ -171,14 +176,12 @@ body {
     bottom: 4%;
     font-family: 'Cormorant Garamond', 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
     transition: 2s;
-    z-index: 1;
 }
 
-#box-image-1:hover {
+/* #box-image-1:hover {
     transform: scale(1.1,1.1);
     z-index: 10;
-
-}
+} */
 
 #box-image-2 {
     background-image: url("../images/Resort_Cover.png");
@@ -191,16 +194,15 @@ body {
     bottom: 4%;
     font-family: 'Cormorant Garamond', 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
     transition: 2s;
-    z-index: 1;
     background-position: center top; 
 
 }
 
-#box-image-2:hover {
+/* #box-image-2:hover {
     transform: scale(1.1,1.1);
     z-index: 10;
 
-}
+} */
 
 #box-image-3 {
     background-image: url("../images/box_3.jpg");
@@ -213,15 +215,14 @@ body {
     bottom: 4%;
     font-family: 'Cormorant Garamond', 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
     transition: 2s;
-    z-index: 1;
 
 }
 
-#box-image-3:hover {
+/* #box-image-3:hover {
     transform: scale(1.1,1.1);
     z-index: 10;
 
-}
+} */
 
 #box-image-4 {
     background-image: url("../images/box_4.jpg");
@@ -234,15 +235,14 @@ body {
     bottom: 4%;
     font-family: 'Cormorant Garamond', 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
     transition: 2s;
-    z-index: 1;
 
 }
 
-#box-image-4:hover {
+/* #box-image-4:hover {
     transform: scale(1.1,1.1);
     z-index: 10;
 
-}
+} */
 .box-image-text-lg {
     text-shadow: 2px 2px 4px #000000;
     font-size: 38px; 

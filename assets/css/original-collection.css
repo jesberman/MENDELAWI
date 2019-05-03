@@ -185,17 +185,16 @@ body {
     background-position: center top;
     background-size: contain;
     background-repeat: no-repeat;
-    opacity: 1;
     margin-bottom: 10px;
 }
 
-#picture1:hover{
+/* #picture1:hover{
     opacity: .7;
 }
 
 #picture1:hover > div#picture-text1{
     visibility: visible;
-}
+} */
 
 
 #picture2{
@@ -208,12 +207,12 @@ body {
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
-#picture2:hover{
+/* #picture2:hover{
     opacity: .7;
 }
 #picture2:hover > div#picture-text2{
     visibility: visible;
-}
+} */
 #picture3{
     width: 32%;
     height: 70vh;
@@ -224,12 +223,12 @@ body {
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
-#picture3:hover > div#picture-text3{
+/* #picture3:hover > div#picture-text3{
     visibility: visible;
 }
 #picture3:hover{
     opacity: .7;
-}
+} */
 #picture4{
     width: 32%;
     height: 70vh;
@@ -240,12 +239,12 @@ body {
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
-#picture4:hover{
+/* #picture4:hover{
     opacity: .7;
 }
 #picture4:hover > div#picture-text4{
     visibility: visible;
-}
+} */
 #picture5{
     width: 32%;
     height: 70vh;
@@ -256,12 +255,12 @@ body {
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
-#picture5:hover{
+/* #picture5:hover{
     opacity: .7;
 }
 #picture5:hover > div#picture-text5{
     visibility: visible;
-}
+} */
 #picture6{
     width: 32%;
     height: 70vh;
@@ -272,12 +271,12 @@ body {
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
-#picture6:hover{
+/* #picture6:hover{
     opacity: .7;
 }
 #picture6:hover > div#picture-text6{
     visibility: visible;
-}
+} */
 #picture7{
     width: 32%;
     height: 70vh;
@@ -289,12 +288,12 @@ body {
     margin-bottom: 10px;
 }
 
-#picture7:hover{
+/* #picture7:hover{
     opacity: .7;
 }
 #picture7:hover > div#picture-text7{
     visibility: visible;
-}
+} */
 #picture8{
     width: 32%;
     height: 70vh;
@@ -305,12 +304,12 @@ body {
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
-#picture8:hover{
+/* #picture8:hover{
     opacity: .7;
 }
 #picture8:hover > div#picture-text8{
     visibility: visible;
-}
+} */
 #picture9{
     width: 32%;
     height: 70vh;
@@ -321,12 +320,12 @@ body {
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
-#picture9:hover{
+/* #picture9:hover{
     opacity: .7;
 }
 #picture9:hover > div#picture-text9{
     visibility: visible;
-}
+} */
 #picture10{
     width: 32%;
     height: 70vh;
@@ -337,19 +336,35 @@ body {
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
-#picture10:hover{
+/* #picture10:hover{
     opacity: .7;
 }
 #picture10:hover > div#picture-text10{
     visibility: visible;
+} */
+
+.picture-active {
+    opacity: .7;
 }
+
+/* .picture-inactive {
+    opacity: 1;
+
+} */
 .picture-text {
     color: white;
     position: relative;
     top: 40vh;
     left: 10%;
     font-family: Cormorant Garamond;
+}
+
+.picture-text-inactive {
     visibility: hidden;
+}
+
+.picture-text-active {
+    visibility: visible;
 }
 
 
