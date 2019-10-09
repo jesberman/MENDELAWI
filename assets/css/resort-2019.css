@@ -381,13 +381,13 @@ body {
 #footer-row1{
     height:300px; 
     display: inline-block; 
-    width: 49%;
+    width: 9%;
 }
 
 #footer-row2{
     display: inline-block; 
     height:300px; 
-    width: 50%;
+    width: 90%;
 }
 
 #footer-div-1 {
@@ -529,6 +529,7 @@ body {
 @media screen and (max-width: 766px) {
     #footer-row1{
         width: 90%;
+        height: 10px;
     }
 
     #footer-row2 {

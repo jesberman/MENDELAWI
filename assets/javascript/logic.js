@@ -20,32 +20,36 @@ $(document).ready(function () {
         $("#nav-collections-div").addClass("hide");
     });
 
-    $(".nav-about-share").mouseover(function () {
-        $("#nav-about-div").removeClass("hide");
-        $("#nav-about-div").addClass("show");
-    });
-    $(".nav-about-share").mouseout(function () {
-        $("#nav-about-div").removeClass("show");
-        $("#nav-about-div").addClass("hide");
-    });
+    // Client requested removing dropdowns for the About, Contact, and Blog
+    //sections, so we are commenting them out for now.  If client's wishes change
+    //later, we can un-comment them out
 
-    $(".nav-contact-share").mouseover(function () {
-        $("#nav-contact-div").removeClass("hide");
-        $("#nav-contact-div").addClass("show");
-    });
-    $(".nav-contact-share").mouseout(function () {
-        $("#nav-contact-div").removeClass("show");
-        $("#nav-contact-div").addClass("hide");
-    });
+    // $(".nav-about-share").mouseover(function () {
+    //     $("#nav-about-div").removeClass("hide");
+    //     $("#nav-about-div").addClass("show");
+    // });
+    // $(".nav-about-share").mouseout(function () {
+    //     $("#nav-about-div").removeClass("show");
+    //     $("#nav-about-div").addClass("hide");
+    // });
 
-    $(".nav-blog-share").mouseover(function () {
-        $("#nav-blog-div").removeClass("hide");
-        $("#nav-blog-div").addClass("show");
-    });
-    $(".nav-blog-share").mouseout(function () {
-        $("#nav-blog-div").removeClass("show");
-        $("#nav-blog-div").addClass("hide");
-    });
+    // $(".nav-contact-share").mouseover(function () {
+    //     $("#nav-contact-div").removeClass("hide");
+    //     $("#nav-contact-div").addClass("show");
+    // });
+    // $(".nav-contact-share").mouseout(function () {
+    //     $("#nav-contact-div").removeClass("show");
+    //     $("#nav-contact-div").addClass("hide");
+    // });
+
+    // $(".nav-blog-share").mouseover(function () {
+    //     $("#nav-blog-div").removeClass("hide");
+    //     $("#nav-blog-div").addClass("show");
+    // });
+    // $(".nav-blog-share").mouseout(function () {
+    //     $("#nav-blog-div").removeClass("show");
+    //     $("#nav-blog-div").addClass("hide");
+    // });
 
     //Index Page Image Instructions
     $("#box-image-1").mouseover(function () {

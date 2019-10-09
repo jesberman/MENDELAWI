@@ -282,13 +282,13 @@ body {
 #footer-row1{
     height:300px; 
     display: inline-block; 
-    width: 49%;
+    width: 9%;
 }
 
 #footer-row2{
     display: inline-block; 
     height:300px; 
-    width: 50%;
+    width: 90%;
 }
 
 #footer-div-1 {
@@ -358,19 +358,34 @@ body {
 }
 
 #footer-twi-text:hover {
-    color: black;
+    color: rgb(235, 203, 134);
 }
-
+#footer-face-text{
+    color: #C9AE72;
+    display: inline;
+}
+#footer-insta-text{
+    color: #C9AE72;
+    display: inline;
+}
+#footer-pin-text{
+    color: #C9AE72;
+    display: inline;
+}
+#footer-face-text{
+    color: #C9AE72;
+    display: inline;
+}
 #footer-face-text:hover {
-    color: black;
+    color: rgb(235, 203, 134);
 }
 
 #footer-insta-text:hover {
-    color: black;
+    color: rgb(235, 203, 134);
 }
 
 #footer-pin-text:hover {
-    color: black;
+    color: rgb(235, 203, 134);
 }
 
 .fa:hover{
@@ -497,5 +512,8 @@ body {
         padding-top: 50px;
         bottom: 5px;
         right: 125px;
+    }
+    #footer-row1{
+        height: 10px;
     }
 }
