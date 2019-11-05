@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Mendelawi
+    </title>
+    <link rel="shortcut icon" href="assets/images/logo.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=GFS+Didot|Open+Sans|Oswald&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="assets/css/about.css">
+</head>
+
+<body style="background-color: black;">
+        <header style="background-color: black; height: 190px; ">
+
+                <div style="margin-top: 0px;">
+                    <!-- <div id="nav-header">
+                    </div> -->
+        
+                    <!-- <h2 style="text-align: center; font-family: 'Uncial Antiqua', cursive;">
+                        MENDELAWI
+                    </h2> -->
+                    <a style="color: black;" href="index.html">
+                        <!-- <h2 style="text-align: center; font-family: 'Cormorant', serif;"> -->
+                        <h2 style="margin-top: 0px; padding-top: 50px; font-size: 45px; text-align: center; font-family: 'GFS Didot', serif;font-variant: small-caps; font-weight:normal;color: #C9AE72">
+                            MENDELAWI <span style="font-size: 15px; position: relative; bottom: 18.5px;">&trade;</span>
+                        </h2>
+                    </a>
+                    <!-- <h2 style="text-align: center; font-family: 'Gilda Display', serif;">
+                    MENDELAWI
+                </h2> -->
+                </div>
+                <div style="background-color: black; float: right;"class="topnav" id="myTopnav">
+        
+                    <a id="nav-about" style="font-size:17px; font-family: 'GFS Didot', serif;color: #C9AE72;"class="nav-about-share" href="about.html">
+                        THE BRAND
+                    </a>
+                    <a id="nav-collections" style="font-size:17px; font-family: 'GFS Didot', serif;color: #C9AE72;" class="nav-collections-share" href="collections.html">
+                        COLLECTIONS
+                        <!-- <br> -->
+                    </a>
+                    <a id="nav-contact" style="font-size:17px; font-family: 'GFS Didot', serif;color: #C9AE72;"class="nav-contact-share" href="contact.html">
+                        CONTACT
+                    </a>
+                    <!-- <a id="nav-blog" style="font-family: 'GFS Didot', serif;color: #C9AE72;" class="nav-blog-share" href="blog.html">
+                        BLOG
+                    </a> -->
+                    <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+        
+                <div>
+                    <!-- Old code for dropdown, commented out because we didnt' have time to fix it -->
+        
+                    <!-- <div id="nav-collections-div" style="width:15%; background-color:black; position: relative; top: 40px; left: 81%;"class="nav-collections-share hide">
+                        <div style="padding: 20px; float: left;">
+                            <ul class="nav-ul">
+                                <li>
+                                    <a id="nav-ul-f/w-2019" style="font-family: 'GFS Didot', serif; color: #C9AE72;" class="nav-list-item" href="fall2019.html">
+                                        Fall 2019
+                                    </a>
+                                </li>
+                                <br>
+        
+                            </ul>
+                        </div>
+                        <div style="visibility: hidden; padding: 20px; float: left;">
+                            <ul class="nav-ul">
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Collections Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Collections Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Collections Item
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+        
+                    <div id="nav-about-div" class="nav-about-share hide">
+                        <div style="padding: 20px; float: left;">
+                            <ul class="nav-ul">
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        About Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        About Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        About Item
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div style="padding: 20px; float: left;">
+                            <ul class="nav-ul">
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        About Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        About Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        About Item
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="nav-contact-div" class="nav-contact-share hide">
+                        <div style="padding: 20px; float: left;">
+                            <ul class="nav-ul">
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Contact Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Contact Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Contact Item
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div style="padding: 20px; float: left;">
+                            <ul class="nav-ul">
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Contact Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Contact Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Contact Item
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="nav-blog-div" class="nav-blog-share hide">
+                        <div style="padding: 20px; float: left;">
+                            <ul class="nav-ul">
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Blog Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Blog Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Blog Item
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div style="padding: 20px; float: left;">
+                            <ul class="nav-ul">
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Blog Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Blog Item
+                                    </a>
+                                </li>
+                                <br>
+        
+                                <li>
+                                    <a class="nav-list-item" href="">
+                                        Blog Item
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </header>
+    <div style=" width: 100%; height: 200px; padding-left: 10%; padding-right: 10%; margin-bottom: 200px;">
+        <a href="individual-dress-look1.html">
+            <div id="look1" style="background-image: url(assets/images/looks/small/look1a.jpg);background-position:center top; background-size: cover; display: inline-block; height: 350px; width: 19%; margin-left: 1%; margin-right: 1%;">
+
+            </div>
+        </a>
+
+        <a href="individual-dress-look2.html">
+            <div id="look2" style="background-image: url(assets/images/looks/small/look2a.jpg);background-position:center top; background-size: cover;  display: inline-block; height: 350px; width: 19%; margin-left: 1%; margin-right: 1%;">
+
+            </div>
+        </a>
+
+
+        <a href="individual-dress-look3.html">
+            <div id="look3" style="background-image: url(assets/images/looks/small/look3a.jpg);background-position:center top; background-size: cover;  display: inline-block; height: 350px; width: 19%; margin-left: 1%; margin-right: 1%;">
+
+            </div>
+        </a>
+
+        <a href="individual-dress-look4.html">
+            <div id="look4" style="background-image: url(assets/images/looks/small/look4a.jpg);background-position:center top; background-size: cover;  display: inline-block; height: 350px; width: 19%; margin-left: 1%; margin-right: 1%;">
+
+            </div>
+        </a>
+
+
+    </div>
+
+    <div style=" width: 100%; height: 200px; padding-left: 10%; padding-right: 10%;">
+        <a href="individual-dress-look5.html">
+            <div id="look5" style="background-image: url(assets/images/looks/look5a.jpg);background-position:center top; background-size: cover;  display: inline-block; height: 350px; width: 19%; margin-left: 1%; margin-right: 1%;">
+
+            </div>
+        </a>
+
+        <a href="individual-dress-look6.html">
+            <div id="look6" style="background-image: url(assets/images/looks/look6a.jpg);background-position:center top; background-size: cover;  display: inline-block; height: 350px; width: 19%; margin-left: 1%; margin-right: 1%;">
+
+            </div>
+        </a>
+
+        <a href="individual-dress-look7.html">
+            <div id="look7" style="background-image: url(assets/images/looks/look7a.jpg);background-position:center top; background-size: cover;  display: inline-block; height: 350px; width: 19%; margin-left: 1%; margin-right: 1%;">
+
+            </div>
+        </a>
+
+        <a href="individual-dress-look8.html">
+            <div id="look8" style="background-image: url(assets/images/looks/look8a.jpg);background-position:center top; background-size: cover;  display: inline-block; height: 350px; width: 19%; margin-left: 1%; margin-right: 1%;">
+
+            </div>
+        </a>
+
+    </div>
+
+
+    <footer style="padding-top: 200px; padding-bottom: 0%;   background-color: black; font-family: 'GFS Didot', serif;color: #C9AE72"
+        id="footer-main">
+        <div style=" width: 100%;">
+
+            <div id="footer-row1">
+                <div style="display:none;  " id="footer-div-1" class="grey-color">
+                    <h3>
+                        CUSTOMER SERVICE
+                    </h3>
+                    <a class="footer-items" href="">
+                        <h4>
+                            Return Policy
+                        </h4>
+                    </a>
+                    <a class="footer-items" href="">
+                        <h4>
+                            FAQ
+                        </h4>
+                    </a>
+
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                </div>
+
+                <div style="display:none;" id="footer-div-2" class="grey-color">
+                    <h3>
+                        CORPORATE
+                    </h3>
+                    <a class="footer-items" href="">
+                        <h4>
+                            Privacy Policy
+                        </h4>
+                    </a>
+
+                    <a class="footer-items" href="">
+                        <h4>
+                            Terms & Conditions
+                        </h4>
+                    </a>
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                </div>
+            </div>
+
+            <div id="footer-row2" style="color: #C9AE72;">
+
+                <div id="footer-div-4" style="height: 100px; padding-bottom: 0%;  position: relative; bottom: -20px; padding-right: 40%; padding-left: 40%;">
+                    <a href="contact.html" style="text-decoration: none;">
+                        <h3 style="color: #C9AE72; font-family: 'GFS Didot', serif;font-variant: small-caps; font-weight:normal;color: #C9AE72;">
+                            CONTACT US
+                        </h3>
+                    </a>
+
+                    <!-- <a class="footer-items" style="color: #C9AE72;" href="">
+                        <h4>
+                            Contact Us
+                        </h4>
+                    </a> -->
+
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                    <h4 style="visibility: hidden">
+                        ipsum
+                    </h4>
+                </div>
+
+                <div id="footer-div-3" class="grey-color" style="height: 100px;  position: relative; padding-top: 0%; padding-right: 40%; padding-left: 40%;">
+                    <h3 style="color: #C9AE72; font-family: 'GFS Didot', serif;font-variant: small-caps; font-weight:normal;color: #C9AE72;">
+                        FOLLOW US
+                    </h3>
+
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/mendelawi_llc-116818076367636/" class="fa fb-ic">
+                        <i id="footer-face" style="color: #C9AE72;" class=" fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a style="color: #C9AE72;" class="footer-items" href="https://www.facebook.com/mendelawi_llc-116818076367636/">
+                        <h4 id="footer-face-text" style="display: inline;">
+                            Facebook
+                        </h4>
+                    </a>
+                    <br>
+                    <br>
+                    <!-- Twitter -->
+                    <!-- <a href="" class="fa tw-ic grey-color">
+                        <i id="footer-twi" style="color: #C9AE72;"class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="footer-items"style="color: #C9AE72;" href="">
+                        <h4 id="footer-twi-text" style="display: inline;">
+                            Twitter
+                        </h4>
+                    </a> -->
+                    <!-- <br>
+                    <br> -->
+                    <!--Instagram-->
+                    <a href="https://www.instagram.com/mendelawi_llc/" class="fa ins-ic">
+                        <i id="footer-insta" style="color: #C9AE72;" class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="footer-items" href="https://www.instagram.com/mendelawi_llc/">
+                        <h4 id="footer-insta-text">
+                            Instagram
+                        </h4>
+                    </a>
+                    <br>
+                    <br>
+                    <!--Pinterest-->
+                    <!-- <a href="" class="fa pin-ic">
+                        <i id="footer-pin" style="color: #C9AE72;" class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+                    </a>
+                    <a class="footer-items" href="">
+                        <h4 id="footer-pin-text" style="color: #C9AE72;display: inline;">
+                            Pinterest
+                        </h4>
+                    </a> -->
+                </div>
+
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <!-- <div style="margin-left: 3%;">
+            <h5 style="display: inline;">
+                COPYRIGHT 2019 MENDELAWI |
+            </h5>
+            <h5 style="display: inline;">
+                Developed by
+                <a href="https://jesberman.github.io/" style="text-decoration:none; display: inline; color: #C9AE72;">Jes Berman Consulting </a>
+            </h5>
+            <img id="logo" src="assets/images/logo.jpg" style="">
+
+        </div> -->
+
+    </footer>
+
+    <script src="assets/javascript/logic.js">
+
+    </script>
+</body>
+
+
+</html>
